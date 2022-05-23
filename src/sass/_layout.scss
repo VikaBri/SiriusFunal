@@ -1,0 +1,29 @@
+/* ================= ===========================
+  ADD YOUR LAYOUT CSS HERE
+  ================================================ */
+//This is not necessary. Opinionated to remove default margin from body to allow things to go all the way across the screen.
+body{
+    margin: 0;
+    
+}
+
+main{
+    //add padding around main content on each page
+   
+    /*padding: 25px;*/
+}
+
+.site-footer{
+    text-align: center;
+}
+.grid-box img{
+    padding: 50px;
+width: 600px;
+}
+
+.astronomer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(58, 58, 61);
+    }
+   
